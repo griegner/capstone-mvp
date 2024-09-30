@@ -5,7 +5,7 @@
 Multivariate prediction from functional MRI is a technique for understanding how brain activation patterns map to thoughts or experiences, akin to mind reading. Instead of analyzing brain regions in isolation, this approach considers how joint patterns of activity distributed across the brain can predict psychological or clinical outcomes. In this capstone project, we will learn how to 1) work with neuroimaging data in Python, 2) select informative features, and 3) train models using supervised machine learning. We will focus on interpretability and think about how the model parameters might help us better understand the relationship between brain structure and function.
 
 ## Mentors
-Armin Schwartzman, Professor: armins@ucsd.edu
+Armin Schwartzman, Professor: armins@ucsd.edu  
 Gabriel Riegner, PhD student: gariegner@ucsd.edu
 
 ## Schedule
