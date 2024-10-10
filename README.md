@@ -18,3 +18,10 @@ Gabriel Riegner, PhD student: gariegner@ucsd.edu
 1. [3D and 4D niimgs: handling and visualizing](https://nilearn.github.io/stable/auto_examples/00_tutorials/plot_3d_and_4d_niimg.html#sphx-glr-auto-examples-00-tutorials-plot-3d-and-4d-niimg-py)
 2. [Basic nilearn example: manipulating and looking at data](https://nilearn.github.io/stable/auto_examples/00_tutorials/plot_nilearn_101.html#basic-nilearn-example-manipulating-and-looking-at-data)
 3. [Plotting tools in nilearn](https://nilearn.github.io/stable/auto_examples/01_plotting/plot_demo_plotting.html)
+
+**w03 (16 OCT): statistical inference, modeling brain connectivity, multivariate prediction**
+Figure out which of these three analysis areas you are most interested in / most comfortable with.
+1. [Handbook of fMRI](https://www.cs.mtsu.edu/~xyang/fMRIHandBook.pdf): chapters 6, 7, 8, 9
+2. [Statistical inference example](https://nilearn.github.io/stable/auto_examples/04_glm_first_level/plot_bids_features.html)
+3. [Brain connectivity example](https://nilearn.github.io/stable/auto_examples/03_connectivity/plot_sphere_based_connectome.html)
+4. [Multivariate prediction example](https://nilearn.github.io/stable/auto_examples/00_tutorials/plot_decoding_tutorial.html#sphx-glr-auto-examples-00-tutorials-plot-decoding-tutorial-py)
