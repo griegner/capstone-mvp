@@ -27,15 +27,6 @@ Figure out which of these three analysis areas you are most interested in / most
 4. [Multivariate prediction example](https://nilearn.github.io/stable/auto_examples/00_tutorials/plot_decoding_tutorial.html#sphx-glr-auto-examples-00-tutorials-plot-decoding-tutorial-py)
 
 **w04 (23 OCT): dataset description**  
-The first step for both projects is to download the respective dataset and write a basic description -- experimental design, preprocessing steps that have been applied, etc. 
-
-1. Functional connectivity project:  
-We can start with the resting state fMRI from the Human Connectome project. [Here](https://pmc.ncbi.nlm.nih.gov/articles/PMC3724347/) is a paper describing the project. For our purposes, we can just refer to [this](https://www.humanconnectome.org/storage/app/media/documentation/s1200/HCP1200-DenseConnectome+PTN+Appendix-July2017.pdf) short data description, which also has download instructions. This will require you to make an account on their [database]( https://db.humanconnectome.org/app/template/Login.vm;jsessionid=67A8B8766DEEA4CF0597C483C9203BE2). Please note that we don’t need to download the volumetric brain images, only the node timeseries for individual subjects. The end goal here would be to estimate a pairwise correlation matrix between every pair of nodes/regions. 
-
-2. Statistical inference project:  
-For the visual working memory dataset it would be helpful to know if the BIDS dataset has been preprocessed and by which software. Then we can describe the experimental design that was used and how we'd create an subject-level model of it. The end goal here would be to estimate an activate map corresponding to the task/stimulus of interest. 
-
-**w04 (23 OCT): dataset description**  
 The first task for both projects is to download the respective datasets and provide a short description, including information on the experimental design, preprocessing steps (if applicable), and any relevant data characteristics. 
 
 *Functional connectivity project*:  
