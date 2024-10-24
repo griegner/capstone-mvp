@@ -35,8 +35,7 @@ For this project, we will use the resting fMRI data from the Human Connectome Pr
 *Statistical inference project*:  
 For the visual working memory task, it is important to determine if the BIDS (Brain Imaging Data Structure) dataset has been preprocessed and to identify the software used for preprocessing (e.g., fMRIPrep, FSL). Once we have this information, we can describe the experimental design that was followed during data collection and define a subject-level model of the task. The goal here is to estimate a statistical map that reflects brain activity associated with the specific memory task.
 
-**w05 (30 OCT):**
-Here are some references to help with next steps.
+**w05 (30 OCT): references for next steps**
 
 *Functional connectivity project*:  
 1. I added a [notebook](notebooks/nregions-100_hcp.ipynb) on different ways to visualize the HCP atlases/parcellations. 
