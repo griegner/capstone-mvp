@@ -34,3 +34,15 @@ For this project, we will use the resting fMRI data from the Human Connectome Pr
 
 *Statistical inference project*:  
 For the visual working memory task, it is important to determine if the BIDS (Brain Imaging Data Structure) dataset has been preprocessed and to identify the software used for preprocessing (e.g., fMRIPrep, FSL). Once we have this information, we can describe the experimental design that was followed during data collection and define a subject-level model of the task. The goal here is to estimate a statistical map that reflects brain activity associated with the specific memory task.
+
+**w05 (30 OCT):**
+Here are some references to help with next steps.
+
+*Functional connectivity project*:  
+1. I added a [notebook](notebooks/nregions-100_hcp.ipynb) on different ways to visualize the HCP atlases/parcellations. 
+2. Nilearn's [connectome](https://nilearn.github.io/stable/modules/connectome.html) API has a few methods for computing functional connectivity over multiple subjects -- see `ConnectivityMeasure(kind='tangent')` and `GroupSparseCovariance()`. These may be interesting to exlpore for group-level modeling.
+
+
+*Statistical inference project*:  
+1. [Here](https://nilearn.github.io/stable/auto_examples/04_glm_first_level/plot_design_matrix.html#examples-of-design-matrices) are some examples of different design matrices. You can use the [make_first_level_design_matrix()](https://nilearn.github.io/stable/modules/generated/nilearn.glm.first_level.make_first_level_design_matrix.html#nilearn.glm.first_level.make_first_level_design_matrix) function to create a design matrix from the `*events.tsv` files in your BIDS dataset.
+2. The tutorial [here](https://nilearn.github.io/stable/glm/glm_intro.html) is more general, but provides some useful intuitions.
