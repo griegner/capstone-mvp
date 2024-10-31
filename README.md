@@ -44,4 +44,12 @@ For the visual working memory task, it is important to determine if the BIDS (Br
 
 *Statistical inference project*:  
 1. [Here](https://nilearn.github.io/stable/auto_examples/04_glm_first_level/plot_design_matrix.html#examples-of-design-matrices) are some examples of different design matrices. You can use the [make_first_level_design_matrix()](https://nilearn.github.io/stable/modules/generated/nilearn.glm.first_level.make_first_level_design_matrix.html#nilearn.glm.first_level.make_first_level_design_matrix) function to create a design matrix from the `*events.tsv` files in your BIDS dataset.
-2. The tutorial [here](https://nilearn.github.io/stable/glm/glm_intro.html) is more general, but provides some useful intuitions.
+2. The tutorial [here](https://nilearn.github.io/stable/glm/glm_intro.html) is more general but provides some useful intuitions.
+
+**w06 (06 NOV): references for next steps**
+
+*Functional connectivity project*:  
+1. I added a [notebook](notebooks/nregions-100_atlasreader.ipynb) to map each ICA component (from the HCP atlas) to a named brain region (from a reference atlas). These labels can be passed to [nilearn.plotting.plot_matrix](https://nilearn.github.io/dev/modules/generated/nilearn.plotting.plot_matrix.html#nilearn.plotting.plot_matrix)
+
+*Statistical inference project*:  
+1. Here's an [example notebook](https://nilearn.github.io/dev/auto_examples/04_glm_first_level/plot_spm_multimodal_faces.html) that is quite similar to your setting. The estimator you want to use is the [nilearn.glm.first_level.FirstLevelModel](https://nilearn.github.io/dev/modules/generated/nilearn.glm.first_level.FirstLevelModel.html#nilearn.glm.first_level.FirstLevelModel).
