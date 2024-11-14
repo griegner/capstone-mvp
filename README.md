@@ -53,3 +53,7 @@ For the visual working memory task, it is important to determine if the BIDS (Br
 
 *Statistical inference project*:  
 1. Here's an [example notebook](https://nilearn.github.io/dev/auto_examples/04_glm_first_level/plot_spm_multimodal_faces.html) that is quite similar to your setting. The estimator you want to use is the [nilearn.glm.first_level.FirstLevelModel](https://nilearn.github.io/dev/modules/generated/nilearn.glm.first_level.FirstLevelModel.html#nilearn.glm.first_level.FirstLevelModel).
+
+**w07 (13 NOV): brain images from CFMRI tour**  
+
+The brain images (anatomical and functional) from the tour are in the `cfmri/` folder.
