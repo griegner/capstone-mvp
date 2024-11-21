@@ -57,3 +57,11 @@ For the visual working memory task, it is important to determine if the BIDS (Br
 **w07 (13 NOV): brain images from CFMRI tour**  
 
 The brain images (anatomical and functional) from the tour are in the `cfmri/` folder.
+
+**w08 (20 NOV): references for next steps**
+
+*Functional connectivity project*:
+1. For plotting functions you can use [plot_matrix()](https://nilearn.github.io/stable/modules/generated/nilearn.plotting.plot_matrix.html#nilearn.plotting.plot_matrix) with the 'reorder' argument to organize the correlation matrix into blocks of clusters. Also, [view_connectome()](https://nilearn.github.io/stable/modules/generated/nilearn.plotting.view_connectome.html#nilearn.plotting.view_connectome) plots the edges on a glass brain using a plotly backend.
+
+*Statistical inference project*:  
+1. For preprocessing the fMRI dataset in BIDS format, we can use [fMRIPrep](https://fmriprep.org/en/stable/index.html#) which requires ~16 CPU + 8GB RAM + 200GB disk storage. 
