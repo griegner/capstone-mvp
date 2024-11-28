@@ -65,3 +65,21 @@ The brain images (anatomical and functional) from the tour are in the `cfmri/` f
 
 *Statistical inference project*:  
 1. For preprocessing the fMRI dataset in BIDS format, we can use [fMRIPrep](https://fmriprep.org/en/stable/index.html#) which requires ~16 CPU + 8GB RAM + 200GB disk storage. 
+
+**w09 (27 NOV): references for next steps**
+
+*Functional Connectivity project*
+1. Covariates for each subject are at [ConnetomeDB](https://db.humanconnectome.org) -> 'WU-Minn HCP Data - 1200 Subjects' -> 'Behavioral Data'
+
+*Statistical inference project*
+1. You can generate coordinate tables and region labels from statistical MRI maps using [atlasreader](https://github.com/miykael/atlasreader). 
+
+```
+pip install atlasreader
+```
+
+```python
+from atlasreader import create_output
+stats_map = ... # variable storing the stats map nifti object
+create_output(stats_map, cluster_extent=10) # saves info on each spatial cluster
+```
