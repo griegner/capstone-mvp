@@ -83,3 +83,15 @@ from atlasreader import create_output
 stats_map = ... # variable storing the stats map nifti object
 create_output(stats_map, cluster_extent=10) # saves info on each spatial cluster
 ```
+
+**WI25 (08 JAN - 14 MAR)**  
+
+Working with fMRI data preprocess with [fMRIPrep](https://fmriprep.org/en/stable/index.html).
+
+*Project using resting-state fMRI*  
+1. See [fmriprep/sub-00_*](./fmriprep/) for the resting-state data we collected at CFMRI, which includes preprocessed images in MNI space and precomputed confounds. These confounds aim to mitigate the effects of non-neural signals (head motion, respiratory/cardiac effects, and scanner noise) on functional connectivity.
+2. From these files, you can estimate a pairwise correlation matrix by following this [example notebook](./notebooks/fmriprep-rest-example.ipynb).
+
+*Project using task fMRI*  
+1. See [fmriprep/sub-208_*](./fmriprep/) for an example run from the preprocessed colorwheel task. For a first-level analysis, you will need three files: (1) '\*_desc-confounds_timeseries.tsv' which are used to mitigate the effects of non-neural signals, (2) '\*_events.tsv' which include the onsets/durations of the colorwheel task, and (3) '\*_desc-preproc_bold.nii.gz' which are the preprocessed images in MNI space.
+2. From these files, you can fit a first-level GLM following this [example notebook](./notebooks/fmriprep-task-example.ipynb)
