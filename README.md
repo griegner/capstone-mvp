@@ -86,7 +86,7 @@ create_output(stats_map, cluster_extent=10) # saves info on each spatial cluster
 
 **WI25 (08 JAN - 14 MAR)**  
 
-Working with fMRI data preprocess with [fMRIPrep](https://fmriprep.org/en/stable/index.html).
+Working with fMRI data preprocessed with [fMRIPrep](https://fmriprep.org/en/stable/index.html).
 
 *Project using resting-state fMRI*  
 1. See [fmriprep/sub-00_*](./fmriprep/) for the resting-state data we collected at CFMRI, which includes preprocessed images in MNI space and precomputed confounds. These confounds aim to mitigate the effects of non-neural signals (head motion, respiratory/cardiac effects, and scanner noise) on functional connectivity.
